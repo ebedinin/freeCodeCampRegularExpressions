@@ -1,3 +1,3 @@
-let reCriminals = /C+/; // Change this line
-const str = "P1P5P4CCCcP2P6P3";
-console.log(str.match(reCriminals));
+let rickyAndCal = "Cal and Ricky both like racing.";
+let calRegex = /^Cal/; // Change this line
+let result = calRegex.test(rickyAndCal);
